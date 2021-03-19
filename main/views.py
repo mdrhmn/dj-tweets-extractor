@@ -117,7 +117,7 @@ def main(request):
                 df.dropna(how="any", axis=0, inplace=True)
                 csv_file = df.to_csv(index=False)
                 # df.to_csv(index=False, path_or_buf=response)
-                # df.head(3)
+                df.head(3)
 
                 f.writestr(user + '.csv', csv_file)
 

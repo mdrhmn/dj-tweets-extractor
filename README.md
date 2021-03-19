@@ -26,3 +26,8 @@ This is a simple Django app to extract Tweets from public Twitter users using Tw
     ACCESS_TOKEN = ''
     ACCESS_TOKEN_SECRET = ''
     ```
+
+## Features
+
+1. Extraction of tweets from public Twitter account (excluding retweets, replies and mentions)
+2. Demojisation of emojis in tweets
